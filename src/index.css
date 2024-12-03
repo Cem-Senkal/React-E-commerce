@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply px-5 py-2 rounded-md active:scale-[.98] text-neutral-100 transition-all bg-indigo-500/80 hover:bg-indigo-500  
+    }
+}
+
+.swiper-pagination-bullet-active {
+    @apply bg-indigo-500
+}
